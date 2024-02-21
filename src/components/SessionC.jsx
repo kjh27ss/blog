@@ -37,17 +37,21 @@ const Cspan = styled.p`
 
 const Cimgbox = styled.div`
     text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:50px;
 `;
 
 const Clist = styled.div`
-    width:150px;
+    width:350px;
     height:150px;
-    background-color: #e9909a;
+    background-color:
     border-radius:10px;
 `;
 
 const Cnum = styled.h4`
-    color:#fff;
+    color:#333;
     font-weight:200;
 `;
 
@@ -63,7 +67,7 @@ const SessionC = () => {
             </Cspan>
             <Cimgbox>
                 <Clist>
-                    <FcLineChart style={{fontSize:"3em"}}/>
+                    <FcLineChart style={{fontSize:"6em"}}/>
                     <Cnum>5,120</Cnum>
                 </Clist>
             </Cimgbox>
